@@ -1,4 +1,4 @@
-# FriendlyFire LHP Addon 1.2.0
+# FriendlyFire LHP Addon 1.1.3
 
 - Modernized the LifeHeartsPro team API connection and cached its public method handles outside the damage-event path.
 - Kept the required LifeHeartsPro dependency explicit; the add-on cannot start without it.

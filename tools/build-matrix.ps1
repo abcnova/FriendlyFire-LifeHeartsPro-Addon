@@ -48,8 +48,8 @@ try {
 
     $releaseDir = Join-Path $projectRoot "release"
     New-Item -ItemType Directory -Force -Path $releaseDir | Out-Null
-    Copy-Item (Join-Path $projectRoot "target\friendlyfire-lhp-addon-1.2.0.jar") $releaseDir -Force
-    Write-Host "Built release: $(Join-Path $releaseDir 'friendlyfire-lhp-addon-1.2.0.jar')"
+    Copy-Item (Join-Path $projectRoot "target\friendlyfire-lhp-addon-1.1.3.jar") $releaseDir -Force
+    Write-Host "Built release: $(Join-Path $releaseDir 'friendlyfire-lhp-addon-1.1.3.jar')"
 } finally {
     Pop-Location
 }

@@ -22,7 +22,7 @@
 ## Install
 
 1. Install and enable LifeHeartsPro first.
-2. Put `friendlyfire-lhp-addon-1.2.0.jar` in the server's `plugins` folder.
+2. Put `friendlyfire-lhp-addon-1.1.3.jar` in the server's `plugins` folder.
 3. Restart the server. Bukkit loads the add-on after LifeHeartsPro and refuses to enable it if the required plugin is missing.
 
 The add-on sets `teams.friendly-fire: true` in LifeHeartsPro when per-team control needs it. It reloads only LifeHeartsPro's configuration; it does not trigger a full gameplay reload or reset online lives.
@@ -58,7 +58,7 @@ mvn -B -Ppaper-1.21 clean verify
 mvn -B -Ppaper-26.3 clean verify
 ```
 
-Each build produces `target/friendlyfire-lhp-addon-1.2.0.jar`. Release artifacts are compiled against the lowest supported API so the same file serves all supported versions.
+Each build produces `target/friendlyfire-lhp-addon-1.1.3.jar`. Release artifacts are compiled against the lowest supported API so the same file serves all supported versions.
 
 ## Related project
 
