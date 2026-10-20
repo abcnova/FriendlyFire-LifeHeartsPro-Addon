@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/FriendlyFire-Modrinth.jpeg" alt="FriendlyFire (LifeHeartsPro Addon)" width="320">
+  <img src="assets/FriendlyFire-Modrinth.jpeg" alt="FriendlyFire (LifeHeartsPro Addon)" width="192">
 </p>
 
 <h1 align="center">FriendlyFire (LifeHeartsPro Addon)</h1>
