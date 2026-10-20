@@ -2,6 +2,8 @@
 
 This add-on uses the Bukkit API only and does not link Minecraft internals. `plugin.yml` declares 1.21 as the minimum API. The release JAR is built against Spigot API 1.21. The matrix compile-checks every published Paper API artifact and exact Spigot APIs for 1.21.2 and the 26.x lines. Paper has no API artifact for 1.21.2, so its Spigot API is checked directly. Paper 26.x checks use pinned latest stable builds to avoid resolving prerelease history.
 
+Release 1.1.3 was rebuilt and passed the matrix on 2026-10-20.
+
 | Minecraft API line | Result |
 | --- | --- |
 | Paper API artifacts for 1.21, 1.21.1, 1.21.3–1.21.11 | PASS |
