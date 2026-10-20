@@ -9,7 +9,7 @@ This add-on uses the Bukkit API only and does not link Minecraft internals. `plu
 | Paper 26.1–26.1.2 via 26.1.2.build.74-stable | PASS |
 | Paper 26.2 via 26.2.build.134-stable | PASS |
 | Paper 26.3 via 26.3.build.207-stable | PASS |
-| Spigot API 26.1, 26.1.1, 26.1.2, 26.2, 26.3 | Pending build |
-| Spigot API 1.21 (release artifact) | Pending build |
+| Spigot API 26.1, 26.1.1, 26.1.2, 26.2, 26.3 | PASS |
+| Spigot API 1.21 (release artifact) | PASS |
 
 These are API compile checks, not full live-server or multi-plugin gameplay smoke tests. Paper 1.21.x runs on Java 21; Paper 26.1+ requires Java 25.
