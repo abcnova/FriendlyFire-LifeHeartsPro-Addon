@@ -1,0 +1,124 @@
+# ============================================================================
+# FriendlyFire LHP Addon
+# Message Sounds
+# ============================================================================
+#
+# This file controls the small feedback sounds used by the addon.
+#
+# enabled:
+# true  = play this sound
+# false = keep this message/action silent
+#
+# sound:
+# Use Bukkit/Paper sound names.
+# Good examples:
+# ENTITY_VILLAGER_NO
+# BLOCK_NOTE_BLOCK_BASS
+# BLOCK_NOTE_BLOCK_PLING
+# ENTITY_EXPERIENCE_ORB_PICKUP
+# BLOCK_AMETHYST_BLOCK_CHIME
+#
+# volume:
+# Keep values low so the addon feels clean.
+# Recommended range: 0.25 - 0.70
+#
+# pitch:
+# Lower pitch = warning/error feeling.
+# Higher pitch = confirmation/success feeling.
+#
+# ============================================================================
+
+sounds:
+
+  # Master switch for all addon sounds.
+  enabled: true
+
+  messages:
+
+    # =================================================
+    # COMMAND FEEDBACK
+    # =================================================
+
+    help:
+      enabled: true
+      sound: BLOCK_NOTE_BLOCK_PLING
+      volume: 0.30
+      pitch: 1.10
+
+    usage:
+      enabled: true
+      sound: BLOCK_NOTE_BLOCK_PLING
+      volume: 0.35
+      pitch: 1.00
+
+    no_permission:
+      enabled: true
+      sound: ENTITY_VILLAGER_NO
+      volume: 0.45
+      pitch: 0.75
+
+    reload_success:
+      enabled: true
+      sound: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.45
+      pitch: 1.25
+
+    feature_disabled:
+      enabled: true
+      sound: BLOCK_NOTE_BLOCK_BASS
+      volume: 0.40
+      pitch: 0.75
+
+    # =================================================
+    # TEAM MANAGEMENT
+    # =================================================
+
+    team_not_found:
+      enabled: true
+      sound: ENTITY_VILLAGER_NO
+      volume: 0.40
+      pitch: 0.85
+
+    team_info:
+      enabled: true
+      sound: BLOCK_NOTE_BLOCK_PLING
+      volume: 0.30
+      pitch: 1.05
+
+    team_ff_enabled:
+      enabled: true
+      sound: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.45
+      pitch: 1.20
+
+    team_ff_disabled:
+      enabled: true
+      sound: BLOCK_NOTE_BLOCK_BASS
+      volume: 0.40
+      pitch: 0.80
+
+    # =================================================
+    # COMBAT FEEDBACK
+    # =================================================
+
+    friendlyfire_blocked_attacker:
+      enabled: true
+      sound: ENTITY_VILLAGER_NO
+      volume: 0.45
+      pitch: 0.75
+
+    friendlyfire_blocked_victim:
+      enabled: true
+      sound: BLOCK_AMETHYST_BLOCK_CHIME
+      volume: 0.30
+      pitch: 1.10
+
+    # =================================================
+    # UPDATE CHECKER
+    # =================================================
+
+    update_available:
+      enabled: true
+      sound: BLOCK_AMETHYST_BLOCK_CHIME
+      volume: 0.45
+      pitch: 1.00

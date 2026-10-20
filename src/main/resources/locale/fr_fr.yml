@@ -1,0 +1,45 @@
+# ============================================================================
+# FriendlyFire LHP Addon - Fichier de langue francais (France)
+# ============================================================================
+# Ce fichier contient uniquement les messages de FriendlyFire LHP Addon.
+# Les messages LifeHeartsPro sont geres par les fichiers de langue du plugin principal.
+# Les couleurs utilisent le format Minecraft standard avec &.
+# ============================================================================
+
+prefix: "&b&lFriendlyFire &8» &7"
+
+messages:
+  no_permission: "{prefix}&cTu n'as pas la permission de faire cela."
+  reload_success: "{prefix}&aFriendlyFire LHP Addon a ete recharge avec succes."
+  help_header: "{prefix}&7Commandes disponibles :"
+  help_reload: "{prefix}&b/{command} reload &8- &7Recharge la configuration, les sons et les langues de l'addon."
+  help_team: "{prefix}&b/{command} team <team> <on|off> &8- &7Active ou desactive le friendly fire pour une equipe LifeHeartsPro."
+  help_info: "{prefix}&b/{command} info <team> &8- &7Affiche l'etat actuel du friendly fire d'une equipe."
+  usage_reload: "{prefix}&7Utilisation : &e/{command} reload"
+  usage_team: "{prefix}&7Utilisation : &e/{command} team <team> <on|off>"
+  usage_info: "{prefix}&7Utilisation : &e/{command} info <team>"
+  feature_disabled: "{prefix}&cCette fonction est desactivee dans la configuration de l'addon."
+  friendlyfire_blocked: "{prefix}&cTu ne peux pas blesser les membres de ta propre equipe."
+  friendlyfire_blocked_victim: "{prefix}&7Un membre de ton equipe a essaye de te blesser, mais le friendly fire l'a bloque."
+  team_not_found: "{prefix}&cEquipe introuvable : &f{team}"
+  team_ff_enabled: "{prefix}&aLe friendly fire de l'equipe &f{team} &aest maintenant &fACTIVE&a."
+  team_ff_disabled: "{prefix}&aLe friendly fire de l'equipe &f{team} &aest maintenant &fDESACTIVE&a."
+  team_info_header: "{prefix}&7Infos de l'equipe &f{team}&7 :"
+  team_info_status_on: "{prefix}&7Friendly fire : &aACTIVE"
+  team_info_status_off: "{prefix}&7Friendly fire : &cDESACTIVE"
+  team_info_size: "{prefix}&7Membres : &f{size}"
+  update_available: "{prefix}&eFriendlyFire LHP Addon &f{version} &eest disponible."
+  update_installed: "{prefix}&7Version installée : &f{version}"
+  update_modrinth_link: "Ouvrir Modrinth"
+  update_github_link: "Ouvrir les versions GitHub"
+
+log:
+  plugin_enabled: "FriendlyFire LHP Addon 1.1.2 active."
+  lifehearts_missing: "LifeHeartsPro est introuvable. FriendlyFire LHP Addon ne peut pas demarrer."
+  lifehearts_sync_success: "LifeHeartsPro teams.friendly-fire=true a ete defini afin que l'addon controle le friendly fire par equipe."
+  lifehearts_reload_manual: "Impossible de recharger LifeHeartsPro automatiquement. Merci d'y definir teams.friendly-fire: true."
+  lifehearts_sync_failed: "Impossible de synchroniser la configuration LifeHeartsPro : {error}"
+  lifehearts_team_read_failed: "Impossible de lire les equipes LifeHeartsPro : {error}"
+  lifehearts_team_resolve_failed: "Impossible de resoudre l'equipe LifeHeartsPro : {error}"
+  lifehearts_team_size_failed: "Impossible de lire la taille de l'equipe LifeHeartsPro : {error}"
+  invalid_sound: "Son invalide dans sounds.yml : {sound}"

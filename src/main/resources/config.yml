@@ -1,0 +1,68 @@
+# FriendlyFire LHP Addon settings. Keep all option values documented here.
+
+locale:
+  # Built-in locales: en_us, de_eu, fr_fr, es_es.
+  default: en_us
+
+lifeheartspro:
+  # LifeHeartsPro blocks team damage globally before this add-on can apply
+  # per-team choices. Keep this true for per-team controls to work.
+  # The add-on changes only teams.friendly-fire and reloads that config; it
+  # does not run LifeHeartsPro's full gameplay reload.
+  force_global_friendly_fire_true: true
+
+update-checker:
+  # Check Modrinth in the background and notify the console and admins.
+  enabled: true
+  # Period between checks; valid values are clamped to 6–168 hours.
+  interval-hours: 12
+  # Managed migration marker. Leave unchanged.
+  migration-auto-enabled: false
+
+teams:
+  # Default state applied when a LifeHeartsPro team has no saved override.
+  default_friendly_fire: false
+  # Create a saved team entry the first time the team is seen.
+  auto_create_team_entries: true
+  # Remove settings for teams that no longer exist. Off by default to preserve data.
+  remove_deleted_team_entries: false
+
+rules:
+  # Protect player-fired arrows, firework rockets and other Bukkit projectiles.
+  protect_projectiles: true
+  # Tridents can be controlled separately from other arrows.
+  protect_tridents: true
+  # Protect splash/lingering potions and their area-effect clouds.
+  protect_potions: true
+  # Attribute attacks by a tamed wolf to its online player owner.
+  protect_wolves: false
+  # Let this permission bypass the per-team protection.
+  bypass_permission_enabled: true
+
+feedback:
+  # Throttle repeated blocked-hit notices per attacker, victim and team.
+  cooldown_ms: 1000
+  attacker_chat:
+    enabled: true
+  victim_chat:
+    enabled: false
+  actionbar:
+    enabled: true
+    attacker: '&b&lFriendlyFire &8» &7Teammate damage was blocked.'
+    victim: '&b&lFriendlyFire &8» &7Your teammate could not damage you.'
+  sound:
+    enabled: true
+    attacker: ENTITY_VILLAGER_NO
+    victim: BLOCK_NOTE_BLOCK_PLING
+    volume: 0.8
+    pitch: 1.2
+
+commands:
+  info_command_enabled: true
+
+debug:
+  # Log update-check failures. No server or player data is sent to Modrinth.
+  enabled: false
+
+# Team overrides are managed by /friendlyfire team and stored below.
+team_settings: {}

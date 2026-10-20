@@ -1,0 +1,45 @@
+# ============================================================================
+# FriendlyFire LHP Addon - Deutsche Sprachdatei (Europa)
+# ============================================================================
+# Diese Datei enthaelt nur Nachrichten vom FriendlyFire LHP Addon.
+# LifeHeartsPro-Nachrichten werden in den LifeHeartsPro-Sprachdateien verwaltet.
+# Farben werden mit normalen Minecraft-Farbcodes und & geschrieben.
+# ============================================================================
+
+prefix: "&b&lFriendlyFire &8» &7"
+
+messages:
+  no_permission: "{prefix}&cDafuer hast du keine Rechte."
+  reload_success: "{prefix}&aFriendlyFire LHP Addon wurde erfolgreich neu geladen."
+  help_header: "{prefix}&7Verfuegbare Befehle:"
+  help_reload: "{prefix}&b/{command} reload &8- &7Laedt Config, Sounds und Sprachdateien vom Addon neu."
+  help_team: "{prefix}&b/{command} team <team> <on|off> &8- &7Schaltet Friendly Fire fuer ein LifeHeartsPro-Team um."
+  help_info: "{prefix}&b/{command} info <team> &8- &7Zeigt den Friendly-Fire-Status eines Teams."
+  usage_reload: "{prefix}&7Verwendung: &e/{command} reload"
+  usage_team: "{prefix}&7Verwendung: &e/{command} team <team> <on|off>"
+  usage_info: "{prefix}&7Verwendung: &e/{command} info <team>"
+  feature_disabled: "{prefix}&cDiese Funktion ist in der Addon-Config deaktiviert."
+  friendlyfire_blocked: "{prefix}&cDu kannst Mitglieder deines eigenen Teams nicht verletzen."
+  friendlyfire_blocked_victim: "{prefix}&7Ein Teammitglied wollte dich verletzen, aber Friendly Fire wurde blockiert."
+  team_not_found: "{prefix}&cTeam nicht gefunden: &f{team}"
+  team_ff_enabled: "{prefix}&aFriendly Fire fuer Team &f{team} &aist jetzt &fAN&a."
+  team_ff_disabled: "{prefix}&aFriendly Fire fuer Team &f{team} &aist jetzt &fAUS&a."
+  team_info_header: "{prefix}&7Team-Info fuer &f{team}&7:"
+  team_info_status_on: "{prefix}&7Friendly Fire: &aAN"
+  team_info_status_off: "{prefix}&7Friendly Fire: &cAUS"
+  team_info_size: "{prefix}&7Mitglieder: &f{size}"
+  update_available: "{prefix}&eFriendlyFire LHP Addon &f{version} &eist verfügbar."
+  update_installed: "{prefix}&7Installierte Version: &f{version}"
+  update_modrinth_link: "Modrinth öffnen"
+  update_github_link: "GitHub-Releases öffnen"
+
+log:
+  plugin_enabled: "FriendlyFire LHP Addon 1.1.2 aktiviert."
+  lifehearts_missing: "LifeHeartsPro wurde nicht gefunden. FriendlyFire LHP Addon kann nicht starten."
+  lifehearts_sync_success: "LifeHeartsPro teams.friendly-fire wurde auf true gesetzt, damit das Addon Friendly Fire pro Team steuern kann."
+  lifehearts_reload_manual: "LifeHeartsPro konnte nicht automatisch neu geladen werden. Bitte setze dort teams.friendly-fire: true."
+  lifehearts_sync_failed: "LifeHeartsPro-Konfiguration konnte nicht synchronisiert werden: {error}"
+  lifehearts_team_read_failed: "LifeHeartsPro-Teams konnten nicht gelesen werden: {error}"
+  lifehearts_team_resolve_failed: "LifeHeartsPro-Team konnte nicht aufgeloest werden: {error}"
+  lifehearts_team_size_failed: "LifeHeartsPro-Teamgroesse konnte nicht gelesen werden: {error}"
+  invalid_sound: "Ungueltiger Sound in sounds.yml: {sound}"

@@ -1,0 +1,29 @@
+name: friendlyfire-lhp-addon
+version: '${project.version}'
+main: io.github.abcnova.friendlyfire.FriendlyFirePlugin
+api-version: '1.21'
+author: ABC_Nova
+website: https://modrinth.com/plugin/friendlyfire-lifeheartspro-addon
+description: Per-team friendly-fire controls for LifeHeartsPro.
+depend: [LifeHeartsPro]
+commands:
+  friendlyfire:
+    description: Manage friendly fire for LifeHeartsPro teams.
+    usage: /friendlyfire <reload|team|info>
+    aliases: [ff, friendlyfireguard, fflhp]
+permissions:
+  friendlyfire.reload:
+    description: Allows reloading the add-on configuration.
+    default: op
+  friendlyfire.manage:
+    description: Allows changing team friendly-fire settings.
+    default: op
+  friendlyfire.info:
+    description: Allows viewing team friendly-fire status.
+    default: op
+  friendlyfire.update.notify:
+    description: Allows receiving update notices.
+    default: op
+  friendlyfireguard.bypass:
+    description: Allows damaging teammates despite the add-on setting.
+    default: false
