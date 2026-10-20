@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/FriendlyFireLHP.png" alt="FriendlyFire LHP Addon logo" width="192">
+  <img src="assets/FriendlyFire-Modrinth.jpeg" alt="FriendlyFire (LifeHeartsPro Addon)" width="320">
 </p>
 
-# FriendlyFire (LifeHeartsPro Addon)
+<h1 align="center">FriendlyFire (LifeHeartsPro Addon)</h1>
 
 **FriendlyFire LHP Addon adds per-team friendly-fire controls to LifeHeartsPro.** It protects teammates across melee, projectiles, potions and optional tamed-wolf attacks, with configurable feedback and four built-in languages.
 
-[Modrinth](https://modrinth.com/plugin/friendlyfire-lifeheartspro-addon) · [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/friendlyfire-lifeheartspro-addon) · [SpigotMC](https://www.spigotmc.org/resources/friendlyfire-lifeheartspro-addon.134347/) · [Hangar](https://hangar.papermc.io/ABC_Nova/FriendlyFire) · [Source and releases](https://github.com/abcnova/FriendlyFireLHPAddon) · [Report an issue](https://github.com/abcnova/FriendlyFireLHPAddon/issues)
+[Modrinth](https://modrinth.com/plugin/friendlyfire-lifeheartspro-addon) · [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/friendlyfire-lifeheartspro-addon) · [SpigotMC](https://www.spigotmc.org/resources/friendlyfire-lifeheartspro-addon.134347/) · [Hangar](https://hangar.papermc.io/ABC_Nova/FriendlyFire) · [Source and releases](https://github.com/abcnova/FriendlyFire-LifeHeartsPro-Addon) · [Report an issue](https://github.com/abcnova/FriendlyFire-LifeHeartsPro-Addon/issues)
 
 **Required plugin:** [LifeHeartsPro](https://github.com/abcnova/LifeHeartsPro) · [Modrinth](https://modrinth.com/plugin/lifeheartspro) · [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/lifeheartspro) · [SpigotMC](https://www.spigotmc.org/resources/lifeheartspro.133466/) · [Hangar](https://hangar.papermc.io/ABC_Nova/LifeHeartsPro)
 

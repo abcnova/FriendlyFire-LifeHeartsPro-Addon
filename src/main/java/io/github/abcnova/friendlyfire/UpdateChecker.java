@@ -18,7 +18,7 @@ import org.bukkit.scheduler.BukkitTask;
 
 final class UpdateChecker implements Listener {
     static final String MODRINTH_PAGE = "https://modrinth.com/plugin/friendlyfire-lifeheartspro-addon";
-    static final String GITHUB_RELEASES = "https://github.com/abcnova/FriendlyFireLHPAddon/releases";
+    static final String GITHUB_RELEASES = "https://github.com/abcnova/FriendlyFire-LifeHeartsPro-Addon/releases";
     private static final String API_URL = "https://api.modrinth.com/v2/project/friendlyfire-lifeheartspro-addon/version?featured=true&include_changelog=false";
     private static final Pattern VERSION_FIELD = Pattern.compile("\\\"version_number\\\"\\s*:\\s*\\\"((?:\\\\.|[^\\\"\\\\])*)\\\"");
     private static final int MAX_RESPONSE_CHARS = 1_000_000;

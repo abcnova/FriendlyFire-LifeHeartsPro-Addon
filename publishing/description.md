@@ -19,4 +19,4 @@ One Java 21 bytecode JAR targets the Bukkit API shared by Paper and Spigot, from
 ## Links
 
 - LifeHeartsPro source: https://github.com/abcnova/LifeHeartsPro
-- FriendlyFire source and releases: https://github.com/abcnova/FriendlyFireLHPAddon
+- FriendlyFire source and releases: https://github.com/abcnova/FriendlyFire-LifeHeartsPro-Addon
